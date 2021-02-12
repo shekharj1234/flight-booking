@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logo-wrap {
+  text-align: right;
+  float: right;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 25px;
+  width: 50px;
+}
+
+.header-wrap {
+  padding: 15px 0;
+  background-color: #222;
+}
+
+.header-wrap .App-header {
+  background-color: #222;
+  color: white;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+.App-header ul {
+  margin-bottom: 0;
+  list-style: none;
+  display: inline-block;
+}
+.App-header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+.wrap-two-col {
+  border: 1px solid #000;
+}
+.container {
+  margin: 20px 0;
+}
+.wrap-two-col .title {
+  border-bottom: 1px solid #000;
+  padding: 20px;
+}
+.wrap-two-col .left-filter,
+.wrap-two-col .sorted-list {
+  padding: 20px !important;
+}
+.sorted-list .card-header + .card-body {
+  padding: 0.5rem 1.25rem;
+}
+.wrap-two-col .row > .left-filter {
+  border-right: 1px solid #000;
+}
+.filters .filter-section {
+  border: 1px solid #dee2e6;
+  margin-top: 10px;
+  padding: 10px;
+}
+.filter-section input {
+  margin-bottom: 15px;
+}
+.filter-section button,
+.filter-section select {
+  display: block;
+  margin-bottom: 15px;
+}
+.wrap-two-col .card {
+  margin-bottom: 20px;
+}
+.wrap-two-col .card .card-text {
+  margin-bottom: 0.25rem;
+}
+
+.sorted-list .flight-book {
+  text-align: center;
+}
+.flight-book .card-body {
+  padding: 0.25rem 0.25rem 0.75rem;
+}
+.flight-book .card.margin-0 {
+  border: 0;
+}
+.margin-0 {
+  margin: 0 !important;
+}
+.from-to {
+  background: #dedede;
+  padding: 10px 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.control-wrap .list-group .list-group-item:hover {
+  background-color: #dedede;
+  cursor: pointer;
+  color: #000;
+}
+
+.list-hide {
+  display: none !important;
+}
+.filters .filter-section {
+  position: relative;
+}
+.list-group {
+  position: absolute;
+  top: 50px;
+  width: 94%;
+}
+.list-group.custom {
+  position: absolute;
+  top: 101px;
+  width: 94%;
+}
+
+.filter-wrap .range-slider-wrap {
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #dee2e6;
+}
+.filter-wrap .range-slider-wrap h5 {
+  margin-bottom: 50px;
+}
+.filter-wrap .range-slider-wrap .input-range {
+  margin-bottom: 20px;
+}
